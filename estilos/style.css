@@ -3,80 +3,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 
-body {
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
-header > div > h1 {
-    font: normal 2em 'Permanent Marker';
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.container p{
-    padding-top: 20px;
-    margin: 10px;
-    position: absolute;
-    max-width: 300px;
-    text-align: center;
-    top: 17%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-   
- 
-    
-}
-
-.container  {
-    background-color: rgb(240, 240, 240);
-}
 
 header {
-    padding-top: 10px;
-    padding-bottom: 50px;
-    margin: 10px;
-    background-color: rgb(163, 204, 243);
+    background-color: rgba(127, 161, 255, 0.466);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.459);
+
 }
 
 nav {
+    top: 14%;
+    margin: 10px;
+    padding: 10px;
+}
+
+main {
+  
+    top: 23%;
+    margin: 10px;
+    padding: 10px;
+    text-indent: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+article {
+    background-color: antiquewhite;
     padding: 10px;
     margin: 10px;
-}
-
-nav > a {
-    margin: 10px;
-    text-decoration: none;
-    color: rgb(83, 83, 151);
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-main > h2 {
-    padding: 10px;
-    margin-left: 40px;
-
-}
-
-div > h1 {
-    margin-left: 20px;
-}
-
-main > p {
     text-align: justify;
-    margin-left: 20px;
-    width: 300px;
-
 }
 
-main > p > a {
-    text-decoration: none;
-    color: rgb(83, 83, 151);
-    margin-left: 50px;        
-}
+main h1 {
+    padding-bottom: 20px;
 
-main > p a:hover {
-    text-decoration: underline;
 }
