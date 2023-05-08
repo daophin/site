@@ -22,7 +22,7 @@ header {
     font-family: 'font-titulo';
     font-size: 2.0em;
     font-style: italic;
-    min-height: 137px;
+    min-height: 127px;
     text-align: center;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.459);
 }
@@ -34,5 +34,5 @@ header  p {
     position: relative;
     background-image: linear-gradient(to top, rgb(246, 159, 21), rgb(255, 206, 30)
     );
-    top: 46px
+    top: 36px
 }
