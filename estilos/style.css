@@ -36,3 +36,8 @@ header  p {
     );
     top: 36px
 }
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
