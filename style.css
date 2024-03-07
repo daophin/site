@@ -4,7 +4,7 @@
             
 }
 h1{
-    
+    color: white;
     text-align: center;
 }
 
@@ -17,8 +17,13 @@ a {
 }
 
 span {
+    height: 25px;
+    width: 25px;
     color: #333;
-    background-color: beige;
+    background-color: rgb(224, 247, 170);
+    margin-bottom: 25px;
+    margin-left: 10px;
+    border-radius: 10px;
 }
 
 a :hover {
