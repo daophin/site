@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+            
+}
+h1{
+    
+    text-align: center;
+}
+
+header {
+    background-color: rgb(44, 67, 102);
+}
+
+a {
+    text-align: center;
+}
+
+span {
+    color: #333;
+    background-color: beige;
+}
+
+a :hover {
+    background-color: #33333369;
+}
