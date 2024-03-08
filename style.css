@@ -73,6 +73,10 @@ nav :hover {
     animation: pulse 1500ms normal ;
 }
 
+nav :active {
+    border-radius: 50%;
+    animation: pulse 1500ms normal ;
+}
 
 @keyframes pulse {
     0% {
