@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Gang of Three';
+    font-style: normal;
+    font-weight: normal;
+    src: url(fonts/go3v2.ttf), format('ttf');
+    }
+
 * {
     height: 100%;
     margin: 0px;
@@ -17,11 +24,22 @@ header {
     top: 20px;
     color: white;
     text-align: center;
-    font-family: "Love Ya Like A Sister", system-ui;
+    font-family: 'Gang of Three';
     font-size: 2em;
 }
 
 .titulo {
+    padding: 10px;
+    margin: 10px;
+    color: #333;
+    font-family: 'Gang of Three';
+    text-align: center;
+}
+
+.paragrafo {
+    position: relative;
+    display: block;
+    top: -640px;
     padding: 10px;
     margin: 10px;
     color: #333;
