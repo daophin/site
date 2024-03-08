@@ -218,6 +218,7 @@ li {
     border-radius: 5px;
     border: 1px solid black;
     color: #333;
+    font-family: 'Love Ya Like A Sister Regular';
     font-weight: bold;
     font-size: 1.08em;
 }
@@ -231,7 +232,7 @@ li {
     font-weight: bold;
     font-size: 1em;
     text-decoration: underline;
-    transition-duration: 0.5s  ;
+    transition-duration: 0.5s;
 }
 
 #linkvideo:hover {
