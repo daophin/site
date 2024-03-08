@@ -36,6 +36,8 @@ header {
 }
 
 .titulo {
+    height: auto;
+    background-color: #a5a1a1;
     padding: 10px;
     margin: 10px;
     color: #333;
@@ -44,9 +46,8 @@ header {
 }
 
 .paragrafo {
-    position: relative;
-    display: block;
-    top: -640px;
+    height: auto;
+    background-color: #b4b3b3;
     padding: 10px;
     margin: 10px;
     color: #333;
