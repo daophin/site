@@ -91,13 +91,11 @@ nav {
     height: 50px;
     width: auto;
     padding: 0px;
-    background-color: #2c436677;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(118, 147, 194, 0.664) 0%, rgba(138, 171, 221, 0.651) 35%, rgba(255,255,255,1) 100%); 
+    background-color: (118, 147, 194, 0.664); 
     border-radius: 0px 0px 20px 0px;
 }
 
-#home {
+#homelinknav {
     position: relative;
     display: inline-block;
     height: 30px;
@@ -109,7 +107,7 @@ nav {
     background-color: rgb(248, 251, 255);
 }
 
-#apostilas {
+#apostilaslinknav {
     position: relative;
     display: inline-block;
     height: 30px;
@@ -121,7 +119,7 @@ nav {
     background-color: rgb(248, 251, 255);
 }
 
-#videos {
+#videoslinknav {
     position: relative;
     display: inline-block;
     height: 30px;
