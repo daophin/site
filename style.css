@@ -10,7 +10,7 @@
 
 header {
     height: 80px;
-    background-color: rgb(44, 67, 102);
+    background-color: #2c4366dc;
 }
 .cabeçalho {
     position: relative;
@@ -21,20 +21,30 @@ header {
     font-size: 2em;
 }
 
+.titulo {
+    padding: 10px;
+    margin: 10px;
+    color: #333;
+    font-family: "Love Ya Like A Sister", system-ui;
+    text-align: center;
+}
+
 abbr {
     display: inline-block;
     position: relative;
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.158);
+    background-color: rgba(118, 147, 194, 0.664);
 }
 
 nav {
     height: 50px;
-    width: 200px;
+    width: auto;
     padding: 0px;
-    background-color: rgba(44, 67, 102, 0.466);
+    background-color: #2c436677;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(118, 147, 194, 0.664) 0%, rgba(138, 171, 221, 0.651) 35%, rgba(255,255,255,1) 100%); 
     border-radius: 0px 0px 20px 0px;
 }
 
@@ -47,7 +57,7 @@ div {
     padding: 5px;
     display: inline-block;
     border-radius: 50%;
-    background-color: white;
+    background-color: rgb(248, 251, 255);
 }
 
 a {
