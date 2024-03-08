@@ -1,6 +1,13 @@
 @charset "UTF-8";
 
 @font-face {
+    font-family: 'Love Ya Like A Sister Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url(fonts/Love_Ya_Like_A_Sister/LoveYaLikeASister-Regular.ttf), format('ttf');
+    }
+
+@font-face {
     font-family: 'Gang of Three';
     font-style: normal;
     font-weight: normal;
@@ -43,7 +50,7 @@ header {
     padding: 10px;
     margin: 10px;
     color: #333;
-    font-family: "Love Ya Like A Sister", system-ui;
+    font-family: 'Love Ya Like A Sister Regular';
     text-align: center;
 }
 
