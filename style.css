@@ -183,3 +183,34 @@ q {
     font-weight: bold;
     font-size: 1em;
 }
+
+ul {
+    list-style: square inside;
+}
+
+li {
+    height: auto;
+    width: auto;
+    left: 20px;
+    padding: 2px;
+    margin: 10px;
+    text-align: left;
+    background-color: rgb(214, 214, 214);
+    border-radius: 5px;
+    color: #333;
+    font-family: 'Love Ya Like A Sister Regular';
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#linkvideo {
+    height: auto;
+    background-color: rgb(214, 214, 214);
+    border-radius: 5px;
+    text-align: center;
+    color: #333;
+    font-family: 'Love Ya Like A Sister Regular';
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: underline;
+}
