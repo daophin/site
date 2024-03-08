@@ -46,26 +46,6 @@ main {
     border-radius: 5px;
     margin: auto;
 }
-h2 {
-    height: auto;
-    background-color: rgb(199, 199, 199);
-    border-radius: 5px;
-    text-align: center;
-    color: #333;
-    font-family: 'Gang of Three';
-    font-size: x-large;
-}
-
-p  {
-    height: auto;
-    background-color: rgb(214, 214, 214);
-    border-radius: 5px;
-    text-align: center;
-    color: #333;
-    font-family: 'Love Ya Like A Sister Regular';
-    font-weight: bold;
-    font-size: 1em;
-}
 
 .bglink {
     height: auto;
@@ -159,4 +139,48 @@ nav :active {
     100% {
         transform: scale(1);
     }
+}
+
+
+h2 {
+    height: auto;
+    background-color: rgb(199, 199, 199);
+    border-radius: 5px;
+    text-align: center;
+    color: #333;
+    font-family: 'Gang of Three';
+    font-size: x-large;
+}
+
+p  {
+    height: auto;
+    background-color: rgb(214, 214, 214);
+    border-radius: 5px;
+    text-align: center;
+    color: #333;
+    font-family: 'Love Ya Like A Sister Regular';
+    font-weight: bold;
+    font-size: 1em;
+}
+
+blockquote {
+    height: auto;
+    background-color: rgb(214, 214, 214);
+    border-radius: 5px;
+    text-align: center;
+    color: #333;
+    font-family: 'Love Ya Like A Sister Regular';
+    font-weight: bold;
+    font-size: 1em;
+}
+
+q {
+    height: auto;
+    background-color: rgb(214, 214, 214);
+    border-radius: 5px;
+    text-align: center;
+    color: #333;
+    font-family: 'Love Ya Like A Sister Regular';
+    font-weight: bold;
+    font-size: 1em;
 }
