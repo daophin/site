@@ -67,6 +67,17 @@ p  {
     font-size: 1em;
 }
 
+.bglink {
+    height: auto;
+    background-color: rgb(214, 214, 214);
+    border-radius: 5px;
+    text-align: center;
+    color: #333;
+    font-family: 'Love Ya Like A Sister Regular';
+    font-weight: bolder;
+    font-size: 1em;
+}
+
 abbr {
     display: inline-block;
     position: relative;
