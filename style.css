@@ -32,6 +32,15 @@ header {
     font-size: 2em;
 }
 
+abbr {
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.158);
+}
+
 nav {
     height: 50px;
     width: 200px;
