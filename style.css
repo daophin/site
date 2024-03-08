@@ -47,6 +47,22 @@ main {
     margin: auto;
 }
 
+.lista {
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    min-width: 320px;
+    max-width: 820px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+footer {
+    background-position: bottom;
+    height: auto;
+    text-align: center;
+}
+
 .bglink {
     height: auto;
     background-color: rgb(214, 214, 214);
@@ -227,7 +243,3 @@ li {
     text-decoration: underline;
 }
 
-footer {
-    height: auto;
-    text-align: center;
-}
