@@ -145,7 +145,7 @@ nav :active {
 h2 {
     height: auto;
     background-color: rgb(199, 199, 199);
-    border-radius: 5px;
+    border-radius: 5px 5px 0px 0px;
     text-align: center;
     color: #333;
     font-family: 'Gang of Three';
@@ -166,7 +166,6 @@ p  {
 blockquote {
     height: auto;
     background-color: rgb(214, 214, 214);
-    border-radius: 5px;
     text-align: center;
     color: #333;
     font-family: 'Love Ya Like A Sister Regular';
@@ -177,7 +176,7 @@ blockquote {
 q {
     height: auto;
     background-color: rgb(214, 214, 214);
-    border-radius: 5px;
+    border-radius: 0px 0px 5px 5px;
     text-align: center;
     color: #333;
     font-family: 'Love Ya Like A Sister Regular';
