@@ -22,22 +22,22 @@ header {
     height: 80px;
     background-color: rgb(44, 67, 102);
 }
-h1{
+.cabeçalho {
     position: relative;
+    right: 20px;
     top: 20px;
     color: white;
     text-align: center;
     font-family: "Love Ya Like A Sister", system-ui;
+    font-size: 2em;
 }
 
 nav {
     height: 50px;
     width: 200px;
     padding: 0px;
-    display: inline-block;
     background-color: rgba(44, 67, 102, 0.466);
     border-radius: 0px 0px 20px 0px;
-    transition:  ease-in-out;
 }
 
 div {
@@ -64,6 +64,7 @@ nav :hover {
     border-radius: 50%;
     animation: pulse 1500ms normal ;
 }
+
 
 @keyframes pulse {
     0% {
