@@ -226,3 +226,8 @@ li {
     font-size: 1em;
     text-decoration: underline;
 }
+
+footer {
+    height: auto;
+    text-align: center;
+}
