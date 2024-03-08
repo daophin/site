@@ -21,6 +21,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+body {
+    background-color: rgba(0, 0, 255, 0.295);
+}
 
 header {
     height: 80px;
@@ -35,24 +38,33 @@ header {
     font-size: 2em;
 }
 
-.titulo {
+main {
+    background-color: rgb(255, 255, 255);
+    min-width: 320px;
+    max-width: 820px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+}
+h2 {
     height: auto;
-    background-color: #a5a1a1;
-    padding: 10px;
-    margin: 10px;
+    background-color: rgb(199, 199, 199);
+    border-radius: 5px;
+    text-align: center;
     color: #333;
     font-family: 'Gang of Three';
-    text-align: center;
+    font-size: x-large;
 }
 
-.paragrafo {
+p  {
     height: auto;
-    background-color: #b4b3b3;
-    padding: 10px;
-    margin: 10px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 5px;
+    text-align: center;
     color: #333;
     font-family: 'Love Ya Like A Sister Regular';
-    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
 }
 
 abbr {
@@ -74,7 +86,31 @@ nav {
     border-radius: 0px 0px 20px 0px;
 }
 
-div {
+#home {
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgb(248, 251, 255);
+}
+
+#apostilas {
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgb(248, 251, 255);
+}
+
+#videos {
     position: relative;
     display: inline-block;
     height: 30px;
