@@ -273,6 +273,8 @@ li {
 }
 
 #linkapostilas {
+    display: inline-block;
+    position: relative;
     height: auto;
     color: #333;
     border-radius: 5px;
@@ -290,4 +292,8 @@ li {
 
 #linkapostilas:visited {
     color: #46679a;
+}
+
+.apostilasLista {
+    text-align: center;
 }
