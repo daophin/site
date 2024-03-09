@@ -268,19 +268,26 @@ li {
     color: #88a1dd;
 }
 
-#linkvideo:visited{
+#linkvideo:visited {
     color: #46679a;
 }
 
 #linkapostilas {
     height: auto;
-    background-color: rgb(214, 214, 214);
+    color: #333;
     border-radius: 5px;
     text-align: center;
-    color: #333;
     font-family: 'Love Ya Like A Sister Regular';
     font-weight: bold;
     font-size: 1em;
     text-decoration: underline;
+    transition-duration: 0.5s;
 }
 
+#linkapostilas:hover {
+    color: #88a1dd;
+}
+
+#linkapostilas:visited {
+    color: #46679a;
+}
