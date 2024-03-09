@@ -87,7 +87,7 @@ abbr {
 }
 
 nav {
-    height: 50px;
+    height: 70px;
     width: auto;
     padding: 0px;
     background-color: #4975b6;
@@ -106,6 +106,16 @@ nav {
     background-color: rgb(248, 251, 255);
 }
 
+.homeName {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    height: auto;
+    top: -20px;
+    right: -10px;
+    font-family: 'Love Ya Like A Sister Regular';
+}
+
 #apostilaslinknav {
     position: relative;
     display: inline-block;
@@ -118,6 +128,15 @@ nav {
     background-color: rgb(248, 251, 255);
 }
 
+.apostilasName {
+    position: relative;
+    display: inline-block;
+    height: auto;
+    top: -20px;
+    right: -15px;
+    font-family: 'Love Ya Like A Sister Regular';
+}
+
 #videoslinknav {
     position: relative;
     display: inline-block;
@@ -128,6 +147,16 @@ nav {
     display: inline-block;
     border-radius: 50%;
     background-color: rgb(248, 251, 255);
+}
+
+.videosName {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    height: auto;
+    top: -20px;
+    right: -20px;
+    font-family: 'Love Ya Like A Sister Regular';
 }
 
 a {
