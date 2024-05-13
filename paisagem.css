@@ -2,3 +2,42 @@
 
 /* Aparelho em paisagem */
 
+.section {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    min-width: 320px;
+    max-width: 820px;
+    margin:auto;
+}
+
+main {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 0px 40px 0px 0px;
+    border-radius: 5px;
+    min-width: 320px;
+    max-width: 820px;
+    margin:auto;
+    text-align: center;
+    z-index: 0;
+}
+
+article {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 320px;
+    max-width: 820px;
+    margin:auto;
+    text-align: center;
+    z-index: 0;
+}
