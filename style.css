@@ -217,17 +217,6 @@ h2 {
     font-size: x-large;
 }
 
-p  {
-    padding-right: 100px;
-    background-color: rgb(214, 214, 214);
-    border-radius: 5px;
-    color: #333;
-    font-family: 'Love Ya Like A Sister Regular';
-    font-weight: bold;
-    text-align: center;
-    font-size: 1em;
-}
-
 blockquote {
     height: auto;
     background-color: rgb(214, 214, 214);
@@ -265,6 +254,10 @@ li {
     font-family: 'Love Ya Like A Sister Regular';
     font-weight: bold;
     font-size: 1.08em;
+}
+.listavideo{
+    background-color: #c7c7c7;
+    list-style: none;
 }
 
 #homelinknav {
