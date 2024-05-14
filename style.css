@@ -50,7 +50,7 @@ body {
     gap: var(--hamburger-gap);
     width: max-content;
     position: absolute;
-    top: 30px;
+    top: 35px;
     left: 5px;
     z-index: 1;
     cursor: pointer;
