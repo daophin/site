@@ -6,14 +6,14 @@
     font-family: 'Love Ya Like A Sister Regular';
     font-style: normal;
     font-weight: normal;
-    src: url(fonts/Love_Ya_Like_A_Sister/LoveYaLikeASister-Regular.ttf), format('ttf');
+    src: url(/site/fonts/Love_Ya_Like_A_Sister/LoveYaLikeASister-Regular.ttf), format('ttf');
     }
 
 @font-face {
     font-family: 'Gang of Three';
     font-style: normal;
     font-weight: normal;
-    src: url(fonts/go3v2.ttf), format('ttf');
+    src: url(/site/fonts/go3v2.ttf), format('ttf');
     }
 
 *, 
