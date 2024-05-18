@@ -22,7 +22,12 @@ Grandes telas: acima de 1200px
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) { /* Tablet:769px até 992px */
-
+        .tumbLivro {
+            background: #333;
+            max-width: 300px;
+            max-height: 300px;
+            transform: scaleX(200%);
+        }   
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) { /* Desktop: 992px até 1200px */
