@@ -16,11 +16,11 @@ body {
     background-color: rgb(199, 217, 245);
 }
 
-header  {
-    position: absolute;
+header > h1 {
+    position: fixed;
     background-color: rgb(143, 177, 228);
     font-family: "Reggae One", serif;
-    font-size: 1em;
+    font-size: 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -28,12 +28,14 @@ header  {
     align-items: center;
     margin: auto;
     padding: 20px;
-    width: 100%;
+    width:100%;
     color: rgb(14, 21, 54);
+    z-index: 997;
 }
 
 .texto {
-    position: absolute;
+    position: fixed;
+    display: flex;
     font-family: "New Tegomin", serif;
     font-weight: bolder;
     min-width: 320px;
@@ -42,12 +44,9 @@ header  {
     padding: 20px;
     border-radius: 10px;
     border: 5px solid rgba(172, 192, 235, 0.719);
-    margin: auto;
+    margin: 10px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    z-index: 996;
 }
 
 .autor {
@@ -119,7 +118,7 @@ footer {
   }
 
 main {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
@@ -131,24 +130,24 @@ main {
 }
 
 .menu .menu-faketrigger {
-    position: absolute;
+    position: fixed;
     z-index: 1000;
     width: 35px;
     height: 35px;
     opacity: 0;
     cursor: pointer;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 
 .menu .menu-lines {
-    position: absolute;
+    position: fixed;
     z-index: 999;
     width: 35px;
     height: 35px;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
 
 }
 
