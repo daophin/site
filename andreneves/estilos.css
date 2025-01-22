@@ -73,6 +73,17 @@ header  {
     text-decoration: none;
 }
 
+.lista li {
+    text-align: center;
+}
+
+.bonsestudos {
+    color: #0E1536;
+    font-family: "Atma", serif;
+    font-size: large ;
+    text-decoration: underline wavy aqua;
+
+}
 .lista a { 
     text-decoration: none;
     color: aquamarine;
