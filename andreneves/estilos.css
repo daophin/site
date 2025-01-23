@@ -16,7 +16,6 @@ body {
     background-color: rgb(199, 217, 245);
 }
 
-
 header {
     background-color: rgb(143, 177, 228);
     padding: 20px;    
@@ -87,7 +86,6 @@ header > h1 {
     color: rgb(78, 69, 87);
 }
 
-
 .lista a:hover {
     color: #08c2cf;
 }
@@ -132,7 +130,6 @@ main {
     margin-left: 10px;
     margin-top: -55px;
 }
-
 
 .menu .menu-lines {
     position: absolute;
